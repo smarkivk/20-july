@@ -1,0 +1,21 @@
+StringBuilder sb = new StringBuilder();
+
+// Append strings
+sb.append("Hello");
+sb.append(" ");
+sb.append("World");
+
+// Insert characters at a specific position
+sb.insert(5, ",");
+sb.insert(6, " ");
+
+// Replace characters
+sb.replace(7, 11, "Java");
+
+// Delete characters
+sb.delete(11, 13);
+
+// Convert StringBuilder to String
+String result = sb.toString();
+
+System.out.println(result); // Output: Hello, Java
